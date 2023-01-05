@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Eurostile"
+}
+
+.clear{
+	clear: both;
+}
+
+
+html, body{
+	height: 100%;
+}
+
+
+			/*BARRA DO MENU*/
+
+.center{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: black;
+}
+
+.header nav{
+	display: block;
+	text-align: center;
+	padding: 18px;
+}
+
+.header nav ul{
+	list-style-type: none;
+}
+
+.header nav li{
+	display: inline-block;
+}
+
+.header nav a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 6px 70px;
+	font-style: bold;
+}
+
+
+
+
+
+
+
+			/*IMAGEM DE FUNDO*/
+
+
+
+.banner{
+	width: 100%;
+	height: 900px;
+	background-image: url("../imagens/transport.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.banner img{
+	margin: 20px 35%;
+}
+
+.banner h2{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 590px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+.box{
+	width: 100%;
+	height: 500px;
+	
+}
+
+
+				/*BOX*/
+
+
+
+
+.section1{
+	width: 100%;
+	height: 510px;
+	padding: 50px 0;
+	background-color: rgb(255, 239, 197)
+}
+
+.section1 h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+.container-section{
+	margin-top: 40px;
+}
+
+.container-section{
+	text-align: center;
+}
+
+.container-single{
+	float: left;
+	width: 33.333%;
+	padding: 30px;
+}
+
+.container-single img{
+	width: 400px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.container-single p{
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+
+
+				/*FORMULÁRIO*/
+
+
+
+
+.form-container{
+	width: 100%;
+}
+
+.form-container h2{
+	font-weight: normal;		/*TIRA O NEGRITO / ITALICO / SUBLINHADO DA FONTE*/
+	padding: 30px 15px;			/*30PX RECUO NA VERTICAL / 15PX RECUO NAS LATERAIS*/
+	background-color: black;	/*COR DE FUNDO*/
+	color: white;				/*COR DA FONTE*/
+	font-size: 40px; 			/*DETERMINA O TAMANHO DA FONTE*/
+	text-align: center;
+}
+
+.form-container form{
+	padding: 15px;
+	background-color: #ddd;
+}
+
+.form-container form p{
+	font-size: 14px;	/*DETERMINA O TAMANHO DA FONTE*/
+	color: #525252; 	/*COR DA FONTE*/
+	background-color: #ddd;
+	margin: 0 120px;
+	;
+}
+
+.form-container form input[type=text]{
+	width: 80%;				
+	height: 45px;				
+	padding-left: 10px;
+	border: 0;
+	margin: 0 120px;
+	border-radius: 10px
+}
+
+.form-wraper:not(:first-child){	
+	margin-top: 30px; 			
+}
+
+.form-container form input[type=submit]{
+	background-color: red;	
+	text-transform: uppercase;	
+	color: white;				
+	width: 10%;				
+	height: 40px;				
+	cursor: pointer;			
+	border: 0;					
+	border-radius: 10px;
+	margin:	0 79%;
+}
+
+.form-wraper:last-child{	
+	margin-top: 10px;	
+}
+
+.entrega img{
+	width: 100%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+				/*RODAPÉ*/
+
+
+
+
+footer{
+	padding: 30px 5%;		/*30PX ESPAÇAMENTO NA VERTICAL/3% ESPAÇAMENTO NA HORIZONTAL*/
+	background-color: #aaa;/*COLOCA COR DE FUNTO PRETA*/
+	color: black;
+	text-align: center;				
+}
+
+footer p:nth-of-type(1){
+	font-size: 20px;		/*DETERMINA O TAMANHO DA FONTE*/
+}
+
+footer p:nth-of-type(2){
+	font-size: 18px;		/*DETERMINA O TAMANHO DA FONTE*/
+}
